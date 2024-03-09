@@ -1,0 +1,28 @@
+import java.awt.event.ActionEvent;
+
+import javax.swing.JOptionPane;
+public class OnlineExam {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 try  
+	        {  
+	            Login form = new Login();  
+	            form.setSize(400,150);  
+	            form.setVisible(true);  
+	        }  
+	        catch(Exception e)  
+	        {     
+	            JOptionPane.showMessageDialog(null, e.getMessage());  
+	        } 
+	}
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	
+
+}
+
+
+}
